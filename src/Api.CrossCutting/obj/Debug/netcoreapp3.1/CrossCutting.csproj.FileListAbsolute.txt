@@ -6,3 +6,4 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\Cro
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache

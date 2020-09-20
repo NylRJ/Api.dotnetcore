@@ -7,3 +7,6 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\obj\Debug\netcoreapp3.1\Repos
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\obj\Debug\netcoreapp3.1\Repository.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.json
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\bin\Debug\netcoreapp3.1\Repository.runtimeconfig.dev.json
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository\obj\Debug\netcoreapp3.1\Repository.genruntimeconfig.cache

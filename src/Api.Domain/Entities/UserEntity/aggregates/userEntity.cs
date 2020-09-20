@@ -1,6 +1,6 @@
-using Api.Domain.Entities.UserEntity.aggregates;
+using Api.Domain.Entities.UserEntity.ValueObject;
 
-namespace Api.Domain.Entities.userEntity
+namespace Api.Domain.Entities.userEntity.aggregates
 {
     public class userEntity : BaseEntity
     {
