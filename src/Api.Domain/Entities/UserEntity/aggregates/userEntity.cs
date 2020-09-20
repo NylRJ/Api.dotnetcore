@@ -1,8 +1,8 @@
 using Api.Domain.Entities.UserEntity.ValueObject;
 
-namespace Api.Domain.Entities.userEntity.aggregates
+namespace Api.Domain.Entities.UserEntity
 {
-    public class userEntity : BaseEntity
+    public class UserEntity : BaseEntity
     {
         public string Name { get; set; }
 
