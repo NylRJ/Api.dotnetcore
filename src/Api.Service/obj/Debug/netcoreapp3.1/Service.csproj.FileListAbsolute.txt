@@ -1,0 +1,8 @@
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
