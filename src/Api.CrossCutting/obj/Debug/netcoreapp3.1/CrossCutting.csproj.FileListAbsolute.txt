@@ -1,0 +1,8 @@
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
