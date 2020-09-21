@@ -10,11 +10,12 @@ namespace Api.Repository.Context
             //Usado para Criar as Migrações
             //var connectionString = "Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=mudar@123";
             //TODO: mudar senha
-            var connectionString = "Server=.\\SQLEXPRESS2017;Database=dbAPI;User Id=sa;Password=mudar@123";
+            var connectionString = "Server=localhost;Port=3306;database=dbAPI;Uid=root;Pwd=J1r@y@;";
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            //optionsBuilder.UseMySql (connectionString);
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseMySql(connectionString);
+            //optionsBuilder.UseSqlServer(connectionString);
             return new MyContext(optionsBuilder.Options);
         }
     }
+
 }
