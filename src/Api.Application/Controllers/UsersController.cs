@@ -16,7 +16,7 @@ namespace Api.Application.Controllers
             this._service = service;
 
         }
-
+        [HttpGet]
         public async Task<ActionResult> GetAll([FromServices] IUserService service)
         {
             if (!ModelState.IsValid)
@@ -35,6 +35,28 @@ namespace Api.Application.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
             }
         }
+
+        [HttpGet]
+        [Route("{id}", Name = "GetWithId")]
+        public async Task<ActionResult> GetById(Guid id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); //400 bad request  - solicitação invalida
+            }
+
+            try
+            {
+                return Ok(await _service.Get(id));
+
+            }
+            catch (ArgumentException e)
+            {
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, e.Message);
+            }
+        }
+
 
     }
 }
