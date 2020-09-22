@@ -7,10 +7,8 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
-D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Repository.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\Repository.pdb
-D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.pdb
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete

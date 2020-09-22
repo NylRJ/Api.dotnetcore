@@ -17,29 +17,34 @@ namespace Api.Service.Services
             this._repository = repository;
 
         }
-        public Task<bool> Delet(Guid id)
+        public async Task<bool> Delete(Guid id)
         {
-            throw new NotImplementedException();
+            return await _repository.DeleteAsync(id);
         }
 
-        public Task<UserEntity> Get(Guid id)
+        public async Task<UserEntity> Get(Guid id)
         {
-            throw new NotImplementedException();
+            return await _repository.SelectAsync(id);
         }
 
-        public Task<IEnumerable<UserEntity>> GetAll(Guid id)
+        public async Task<IEnumerable<UserEntity>> GetAll(Guid id)
         {
-            throw new NotImplementedException();
+            return await _repository.SelectAsync();
         }
 
-        public Task<UserEntity> Post(UserEntity user)
+        public async Task<IEnumerable<UserEntity>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _repository.SelectAsync();
         }
 
-        public Task<UserEntity> Put(UserEntity user)
+        public async Task<UserEntity> Post(UserEntity user)
         {
-            throw new NotImplementedException();
+            return await _repository.InsertAsync(user);
+        }
+
+        public async Task<UserEntity> Put(UserEntity user)
+        {
+            return await _repository.UpdateAsync(user);
         }
     }
 }
