@@ -1,4 +1,5 @@
 using Api.Domain.Entities.UserEntity;
+using Api.Domain.Entities.UserEntity.ValueObject;
 using Api.Repository.Mapping;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,13 @@ namespace Api.Repository.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+
         }
 
     }

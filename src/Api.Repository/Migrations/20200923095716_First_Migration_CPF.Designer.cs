@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Repository.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20200921230151_UserMigration")]
-    partial class UserMigration
+    [Migration("20200923095716_First_Migration_CPF")]
+    partial class First_Migration_CPF
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,6 +46,27 @@ namespace Repository.Migrations
                         .IsUnique();
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("Api.Domain.Entities.UserEntity.UserEntity", b =>
+                {
+                    b.OwnsOne("Api.Domain.Entities.UserEntity.ValueObject.CPF", "CPF", b1 =>
+                        {
+                            b1.Property<Guid>("UserEntityId")
+                                .HasColumnType("char(36)");
+
+                            b1.Property<string>("Valor")
+                                .IsRequired()
+                                .HasColumnName("CPF")
+                                .HasColumnType("varchar(11)");
+
+                            b1.HasKey("UserEntityId");
+
+                            b1.ToTable("User");
+
+                            b1.WithOwner()
+                                .HasForeignKey("UserEntityId");
+                        });
                 });
 #pragma warning restore 612, 618
         }

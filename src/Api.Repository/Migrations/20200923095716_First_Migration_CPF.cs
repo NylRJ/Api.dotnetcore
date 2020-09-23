@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Repository.Migrations
 {
-    public partial class UserMigration : Migration
+    public partial class First_Migration_CPF : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,7 +15,8 @@ namespace Repository.Migrations
                     CreateAt = table.Column<DateTime>(nullable: true),
                     UpdateAt = table.Column<DateTime>(nullable: true),
                     Name = table.Column<string>(maxLength: 60, nullable: false),
-                    Email = table.Column<string>(maxLength: 100, nullable: true)
+                    Email = table.Column<string>(maxLength: 100, nullable: true),
+                    CPF = table.Column<string>(type: "varchar(11)", nullable: true)
                 },
                 constraints: table =>
                 {

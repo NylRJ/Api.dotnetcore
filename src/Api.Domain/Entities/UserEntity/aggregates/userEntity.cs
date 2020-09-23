@@ -7,5 +7,7 @@ namespace Api.Domain.Entities.UserEntity
         public string Name { get; set; }
 
         public string Email { get; set; }
+
+        public CPF CPF { get; set; }
     }
 }

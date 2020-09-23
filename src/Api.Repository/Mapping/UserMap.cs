@@ -19,6 +19,18 @@ namespace Api.Repository.Mapping
                 .IsRequired()
                 .HasMaxLength(60);
 
+            builder.OwnsOne(u => u.CPF, cpf =>
+            {
+                cpf.Property(c => c.Valor)
+                .IsRequired()
+                .HasColumnName("CPF")
+                .HasColumnType("varchar(11)");
+
+
+
+            });
+
+
             builder.Property(u => u.Email)
                 .HasMaxLength(100);
         }
