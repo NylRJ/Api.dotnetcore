@@ -7,7 +7,11 @@ namespace Api.Repository.Context
     public class MyContext : DbContext
     {
         public DbSet<UserEntity> Users { get; set; }
-        public MyContext(DbContextOptions<MyContext> options) : base(options) { }
+        public MyContext(DbContextOptions<MyContext> options) : base(options)
+        {
+
+            Database.Migrate();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
