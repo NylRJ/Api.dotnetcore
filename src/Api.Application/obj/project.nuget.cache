@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sw27fNrO7f9QN+d4QUQhdf1pF1TPTKFI8UfRsucFI4PkdDJyWbbl57KNmc3KMHS/pMunOePFFpnj1adrIc3ByA==",
+  "dgSpecHash": "kfBHjhTUMb5zScKaFEB3jmQOr0pQk6zaXDRTOMpnMVIg63L08feW/sxSZ/ZEze+x4YyPaXF925ATjFgXJNPpMQ==",
   "success": true,
   "projectFilePath": "D:\\2020.3\\CursoC#\\pj_api_netcor\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
@@ -46,10 +46,10 @@
     "C:\\Users\\lovel\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.2\\swashbuckle.aspnetcore.5.6.2.nupkg.sha512",
-    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.2\\swashbuckle.aspnetcore.swagger.5.6.2.nupkg.sha512",
-    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.2\\swashbuckle.aspnetcore.swaggergen.5.6.2.nupkg.sha512",
-    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.2\\swashbuckle.aspnetcore.swaggerui.5.6.2.nupkg.sha512",
+    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\lovel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
