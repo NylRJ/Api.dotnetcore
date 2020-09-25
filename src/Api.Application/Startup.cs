@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Api.CrossCutting.DependencyInjection;
 using Api.Domain.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -62,6 +63,13 @@ namespace application
                 paramsValidation.ClockSkew = TimeSpan.Zero;
 
 
+            });
+
+            services.AddAuthorization(auth =>
+            {
+                auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+                    .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+                    .RequireAuthenticatedUser().Build());
             });
 
             services.AddControllers();
