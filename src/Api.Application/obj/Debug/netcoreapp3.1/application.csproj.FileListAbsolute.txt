@@ -76,3 +76,4 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.Application\bin\Debug\netcoreapp3.1\Swas
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Application\obj\Debug\netcoreapp3.1\application.MvcApplicationPartsAssemblyInfo.cs
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

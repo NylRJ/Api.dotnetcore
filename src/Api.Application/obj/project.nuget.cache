@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yvX5edZvZGAbyyK9zdDQqO8yaQ7HhTFZnjURYUINDqqqgLouagCcGGvrb5fNGEgk0PP3FLW1qqx1/MFQjqZ5/g==",
+  "dgSpecHash": "jkA3lf3QSuUpx3DpJQZdB+JKgaUBnCAPRUtA5GWt8MdcbsoZF7RI7yQvcq+jMENolL5Rh9H85EfQXIKw1JwZgA==",
   "success": true,
   "projectFilePath": "D:\\2020.3\\CursoC#\\pj_api_netcor\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lovel\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\lovel\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\lovel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
