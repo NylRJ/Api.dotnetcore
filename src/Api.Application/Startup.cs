@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Api.CrossCutting.DependencyInjection;
+using Api.CrossCutting.Mappings;
 using Api.Domain.Security;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -30,6 +32,15 @@ namespace application
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
 
+            var config = new AutoMapper.MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DtoToModelProfile());
+                cfg.AddProfile(new EntityToDtoProfile());
+                cfg.AddProfile(new ModelToEntityProfile());
+            });
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+
 
 
             var signingConfigurations = new SigningConfigurations();
@@ -51,16 +62,16 @@ namespace application
             paramsValidation.IssuerSigningKey = signingConfigurations.Key;
             paramsValidation.ValidAudience = tokenConfigurations.Audience;
             paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
-                // Valida a assinatura de um token recebido
-                paramsValidation.ValidateIssuerSigningKey = true;
+            // Valida a assinatura de um token recebido
+            paramsValidation.ValidateIssuerSigningKey = true;
 
-                // Verifica se um token recebido ainda é válido
-                paramsValidation.ValidateLifetime = true;
+            // Verifica se um token recebido ainda é válido
+            paramsValidation.ValidateLifetime = true;
 
-                // Tempo de tolerância para a expiração de um token (utilizado
-                // caso haja problemas de sincronismo de horário entre diferentes
-                // computadores envolvidos no processo de comunicação)
-                paramsValidation.ClockSkew = TimeSpan.Zero;
+            // Tempo de tolerância para a expiração de um token (utilizado
+            // caso haja problemas de sincronismo de horário entre diferentes
+            // computadores envolvidos no processo de comunicação)
+            paramsValidation.ClockSkew = TimeSpan.Zero;
 
 
         });
