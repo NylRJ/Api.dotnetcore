@@ -3,7 +3,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Api.Domain\Domain.csproj" />
     <ProjectReference Include="..\Api.Repository\Repository.csproj" />
-    
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
   </ItemGroup>
 
   <PropertyGroup>
