@@ -1,6 +1,6 @@
 using System;
 
-namespace Api.Domain.Dtos
+namespace Api.Domain.Dtos.User
 {
     public class UserDtoCreateResult
     {

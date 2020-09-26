@@ -1,6 +1,6 @@
 using System;
 
-namespace Api.Domain.Dtos
+namespace Api.Domain.Dtos.User
 {
     public class UserDtoUpdateResult
     {
@@ -12,4 +12,5 @@ namespace Api.Domain.Dtos
 
         public DateTime UpdateAt { get; set; }
     }
+
 }

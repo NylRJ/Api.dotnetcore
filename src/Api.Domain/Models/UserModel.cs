@@ -1,6 +1,6 @@
 using System;
 
-namespace Api.Application.Controllers.Models
+namespace Api.Domain.Models
 {
     public class UserModel
     {
