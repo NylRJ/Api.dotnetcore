@@ -46,11 +46,11 @@ namespace application
                 authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(bearerOptions =>
-            {
-                var paramsValidation = bearerOptions.TokenValidationParameters;
-                paramsValidation.IssuerSigningKey = signingConfigurations.Key;
-                paramsValidation.ValidAudience = tokenConfigurations.Audience;
-                paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+        {
+            var paramsValidation = bearerOptions.TokenValidationParameters;
+            paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+            paramsValidation.ValidAudience = tokenConfigurations.Audience;
+            paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
                 // Valida a assinatura de um token recebido
                 paramsValidation.ValidateIssuerSigningKey = true;
 
@@ -63,7 +63,7 @@ namespace application
                 paramsValidation.ClockSkew = TimeSpan.Zero;
 
 
-            });
+        });
 
             services.AddAuthorization(auth =>
             {
