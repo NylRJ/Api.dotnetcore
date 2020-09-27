@@ -1,3 +1,4 @@
+using System;
 using Api.Domain.Entities.UserEntity;
 using Api.Domain.Entities.UserEntity.ValueObject;
 using Api.Repository.Mapping;
@@ -18,6 +19,17 @@ namespace Api.Repository.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+            modelBuilder.Entity<UserEntity>().HasData(
+
+               new UserEntity
+               {
+
+                   Id = Guid.NewGuid(),
+                   Name = "Administrador",
+                   Email = "admin.admin@gmail.com",
+
+               }
+            );
 
         }
 

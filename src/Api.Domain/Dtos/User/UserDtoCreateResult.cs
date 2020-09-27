@@ -1,4 +1,5 @@
 using System;
+using Api.Domain.Entities.UserEntity.ValueObject;
 
 namespace Api.Domain.Dtos.User
 {
@@ -11,5 +12,7 @@ namespace Api.Domain.Dtos.User
         public string Email { get; set; }
 
         public DateTime CreateAt { get; set; }
+
+        public CPF CPF { get; set; }
     }
 }

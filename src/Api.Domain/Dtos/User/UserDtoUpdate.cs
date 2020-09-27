@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using Api.Domain.Entities.UserEntity.ValueObject;
 
 namespace Api.Domain.Dtos.User
 {
@@ -16,5 +17,7 @@ namespace Api.Domain.Dtos.User
         [EmailAddress(ErrorMessage = "E-mail em formato inválido.")]
         [StringLength(100, ErrorMessage = "E-mail é deve ter no máximo {1}  caractere.")]
         public string Email { get; set; }
+
+
     }
 }

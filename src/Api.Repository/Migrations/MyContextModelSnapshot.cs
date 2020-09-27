@@ -44,6 +44,14 @@ namespace Repository.Migrations
                         .IsUnique();
 
                     b.ToTable("User");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c2b35070-f861-4c4f-aa2e-23336983a190"),
+                            Email = "admin.admin@gmail.com",
+                            Name = "Administrador"
+                        });
                 });
 
             modelBuilder.Entity("Api.Domain.Entities.UserEntity.UserEntity", b =>

@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Repository.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20200923095716_First_Migration_CPF")]
-    partial class First_Migration_CPF
+    [Migration("20200926214202_UserFirstMigration")]
+    partial class UserFirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,6 +46,14 @@ namespace Repository.Migrations
                         .IsUnique();
 
                     b.ToTable("User");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c2b35070-f861-4c4f-aa2e-23336983a190"),
+                            Email = "admin.admin@gmail.com",
+                            Name = "Administrador"
+                        });
                 });
 
             modelBuilder.Entity("Api.Domain.Entities.UserEntity.UserEntity", b =>

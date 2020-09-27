@@ -18,7 +18,7 @@ namespace MelhoresPraticas.CrossCutting.BusinessException
         public BusinessException(string detail) : base(detail)
         {
             this.Detail = detail;
-            
+
         }
 
         public BusinessException(string detail, System.Exception innerException) : base(detail, innerException)

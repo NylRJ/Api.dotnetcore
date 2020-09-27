@@ -1,4 +1,5 @@
 using System;
+using Api.Domain.Entities.UserEntity.ValueObject;
 
 namespace Api.Domain.Models
 {
@@ -24,6 +25,12 @@ namespace Api.Domain.Models
         {
             get { return _email; }
             set { _email = value; }
+        }
+        private CPF _cpf;
+        public CPF CPF
+        {
+            get { return _cpf; }
+            set { _cpf = value; }
         }
 
         private DateTime _createAt;
