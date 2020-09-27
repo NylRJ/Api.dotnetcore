@@ -52,7 +52,6 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\xunit.assert.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\xunit.core.dll
@@ -146,3 +145,4 @@ D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\obj\Debug\netcoreapp3.1\
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\obj\Debug\netcoreapp3.1\Api.Repository.Test.dll
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\obj\Debug\netcoreapp3.1\Api.Repository.Test.pdb
 D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\obj\Debug\netcoreapp3.1\Api.Repository.Test.genruntimeconfig.cache
+D:\2020.3\CursoC#\pj_api_netcor\src\Api.Repository.Test\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
